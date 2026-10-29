@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+/* form styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+}
+
+fieldset {
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: black;
+    border-radius: 15px;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label,
+input:active + label, label[for]:focus, label[for]:active {
+color: #FFF !important;
+background-color: green !important;}
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+#formcol1 li {
+    list-style:none;
+}
+
+#formcol1 input.reqfield {
+    background: red;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label {
+    margin-right: .3em;
+    width: 6.3em;
+    display: inline-block;
+}
+
+#multchoice span {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+/* end of form css */
+	
